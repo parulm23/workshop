@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  border-bottom: 1px solid gray;
+  position: fixed;
+  width: 100%;
+  baxkgroun-color: white;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+main {
+  margin-top: 52px;
+  width: 70%;
+  margin: 52px auto auto;
+}
+
+
+#Home img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.homepage-section {
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 15px 2px rgba(0,0,0,.2);
+  padding: 30px;
+}
+
+#Projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#Projects ul li {
+  width: 48%;
+  margin: 1%;
+  box-shadow: 2px 2px 5px 2px rgba(0,0,0,.5);
+  text-align: center;
+}
+
+footer {
+  background: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+#About ol li {
+  width: 50%;
+}
+
+#About ol li:nth-child(2) {
+  margin-left:auto;
+}
